@@ -17,7 +17,7 @@ body {
               width: 530px;
               height: 200px;
               background-color: #12e0be;
-              margin-left: 368px;
+              margin-left: 768px;
               margin-top: 346px;
               opacity: 0.8;
   
@@ -26,14 +26,14 @@ body {
           width: 530px;
           height: 100px;
           background-color: #12e0be;
-          margin-left: 368px;
+          margin-left: 768px;
           margin-top: -312px;
           opacity: 0.8;
   }
   #orgName{
       position: fixed;
       margin-top: -88px;
-      margin-left: 398px;
+      margin-left: 798px;
       color: white;
       z-index: 100;
       font-size: 36px;
@@ -43,7 +43,7 @@ body {
   #eventDate{
       position: fixed;
       margin-top: -71px;
-      margin-left: 578px;
+      margin-left: 978px;
       color: white;
       z-index: 100;
       font-size: 17px;
@@ -53,7 +53,7 @@ body {
   #orgDay{
       position: fixed;
       margin-top: -39px;
-      margin-left: 398px;
+      margin-left: 798px;
       color: white;
       z-index: 100;
       font-size: 14px;
@@ -61,7 +61,7 @@ body {
       font-family: sans-serif;
   }
   .box{
-      margin-left: 6px;
+      margin-left: 26px;
   margin-top: 55px;
   position: absolute;
   }  
@@ -88,27 +88,28 @@ body {
     #days, #hours, #minutes, #seconds{
         color: white;
         padding: 50px;
+        padding-right: -100px;
         position: absolute;
         font-family: sans-serif;
         font-weight: b;
     }
     #days{
-      margin-left: 360px;
+      margin-left: 777px;
       margin-top: -2px;
       font-size: 20px;
     }
     #hours{
-      margin-left: 476px;
+      margin-left: 896px;
       margin-top: -2px;
       font-size: 20px;
     }
     #minutes{
-        margin-left: 589px;
+        margin-left: 1009px;
         margin-top: -2px;
         font-size: 20px;
       }
     #seconds{
-      margin-left: 709px;
+      margin-left: 1129px;
       margin-top: -2px;
       font-size: 20px;
     }
